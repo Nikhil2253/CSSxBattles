@@ -1,0 +1,49 @@
+<div class="semicircle">
+  <div class="upper">
+  </div>
+  <div class="sqa">
+  </div>
+  <div class="lower">
+  </div>
+</div>
+<style>
+  body {
+    background: #B0ACD5;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:92px;
+  }
+
+  .semicircle{
+    background:#6A5885;
+    height:190px;
+    width:190px;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column-reverse;
+    position:relative;
+  }
+  .lower{
+    background:#B0ACD5;
+    height:50%;
+  }
+  .upper{
+    position:absolute;
+    background:#B0ACD5;
+    height:75px;
+    width:75px;
+    border-radius:50%;
+    top:10px;
+    left:55px;
+  }
+  .sqa{
+    position:absolute;
+    background:#B0ACD5;
+    height:75px;
+    width:20px;
+    top:30px;
+    left:82px;
+  }
+</style>
