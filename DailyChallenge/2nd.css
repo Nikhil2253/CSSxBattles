@@ -1,0 +1,103 @@
+<div class="main">
+  <div class="one">
+    <div class="componentupper">
+      
+    <div class="vred"></div>
+    <div class="vred"></div>
+    <div class="vred"></div>
+    </div>
+  <div>
+  <div class="two">
+    <div class="componentmiddle">
+      
+    <div class="ured"></div>
+    <div class="ured"></div>
+    <div class="ured"></div>
+    </div>
+  <div>
+  <div class="circle">
+    <div class="red">
+      
+    </div>
+  </div>
+</div>
+<style>
+  body{
+    margin:0;
+  }
+  .main{
+    background:#FEF6E2;
+    width:100%;
+    height:100%;
+    position:relative;
+  }
+  .one{
+    position:absolute;
+    height:100%;
+    width:120px;
+    top:0;
+    left:50%;
+    background:transparent;
+    transform: translateX(-50%);
+  }
+  .two{
+    position:absolute;
+    width:1000px;
+    height:120px;
+    top:50%;
+    left:-150%;
+    background:transparent;
+    transform: translateY(-50%);
+    display:flex;
+    padding:0;
+    flex-direction:column;
+  }
+  .componentupper{
+    width:100%;
+    height:100%;
+    display:flex;
+    padding:0px;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .componentmiddle{
+    width:100%;
+    height:100%;
+    display:flex;
+    padding:0px;
+    flex-direction:column;
+    align-items:space-betwen;
+    justify-content:space-between;
+  }
+  .vred{
+    background:#AC342E;
+    height:100%;
+    width:21px;
+    margin:0;
+  }
+  .ured{
+    background:#AC342E;
+    height:21px;
+    width:100%;
+    margin:0;
+  }
+  .circle{
+    height:180px;
+    width:180px;
+    border-radius:50%;
+    background:#FEF6E2;
+    position:absolute;
+    top:50%;
+    left:24.2%;
+    transform: translateX(-50%) translateY(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .red{
+    height:60px;
+    width:60px;
+    background:#AC342E;
+    border-radius:50%;
+  }
+</style>
