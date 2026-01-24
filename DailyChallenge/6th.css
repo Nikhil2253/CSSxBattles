@@ -1,0 +1,48 @@
+<div class="main">
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+  <div class="boxes">
+  </div>
+</div>
+<style>
+  body{
+    margin:0;
+    background: #37B4BD;
+    padding:120px 20px;
+  }
+  .main {
+    width: 100%;
+    height: 60px;
+    background: #F9EAF1;
+    display:flex;
+  }
+  .boxes:nth-child(even){
+    height:50%;
+    width:8.5%;
+    background: #394257;
+  }
+  .boxes:nth-child(odd){
+    height:50%;
+    width:8.5%;
+  }
+</style>
