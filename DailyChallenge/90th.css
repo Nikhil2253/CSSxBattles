@@ -1,0 +1,68 @@
+<div>
+  <div class="purpleone">
+  </div>
+  <div class="purpletwo">
+  </div>
+  <div class="one">
+  </div>
+  <div class="two">
+  </div>
+</div>
+<style>
+  body{
+    margin:0;
+    padding:0;
+  }
+  div {
+    width: 100%;
+    height: 100%;
+    background: #DDFEE6;
+    position:relative;
+  }
+
+  .purpleone{
+    position:absolute;
+    top:60px;
+    left:110px;
+    height:180px;
+    width:100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #6D62BA;
+  }
+  
+  .purpletwo{
+    position:absolute;
+    top:100px;
+    left:150px;
+    height:180px;
+    width:100px;
+    rotate:90deg;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #6D62BA;
+  }
+  
+  .one{
+    position:absolute;
+    top:90px;
+    left:140px;
+    height:120px;
+    width:40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #A1E6E4;
+  }
+  
+  .two{
+    position:absolute;
+    top:130px;
+    left:180px;
+    height:120px;
+    width:40px;
+    rotate:90deg;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #A1E6E4;
+  }
+</style>
